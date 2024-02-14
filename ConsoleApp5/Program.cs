@@ -71,7 +71,6 @@
             //Print user's score after the for loop is done
             Console.WriteLine("Your Total Score: " + totalScore);
 
-            //test
         }
 
     }
