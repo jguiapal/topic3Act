@@ -9,13 +9,11 @@
 
             Random random = new Random();
             int numberOfItems = random.Next(5, 15);
+            double answer;
             double correctAns;
             int totalScore = 0;
 
-
             Console.WriteLine("Total Number of items: " + numberOfItems);
-
-            double answer;
 
             for (int i = 1; i <= numberOfItems; i++)
             {
